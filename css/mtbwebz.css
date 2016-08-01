@@ -1,0 +1,91 @@
+html, body{
+	width: 100%;
+	font-size: 11px;
+	font-family: "Calibri";
+	overflow-x: hidden;
+}
+.x-section{width: 100%; margin: 0; padding: 0; display: block; clear: both; background: none;}
+.x-section .init{display: block; margin: 0 auto; padding: 0; background: none;}
+
+.x-direction{background: #002633;}
+.x-direction .init{width: 98%; max-width: 1200px;}
+.x-direction .init .direction{margin: 0; padding: 0; display: inline-block;}
+.x-direction .init .direction p{color: white; display: inline-block; font-size: 1.2em; margin: 0; padding: 0; line-height: 2.2em; float: left;}
+.x-direction .init .direction .direc{display: inline-block; margin: 3px;}
+.x-direction .init .direction .direc a{float: left; color: white; font-size: 1em; line-height: 18px; padding: 0 10px 0 15px; position: relative; background: #002633; text-decoration: none; font-weight: bold;}
+
+.x-direction .init .direction .direc a:after{content: '';position: absolute;top: 0; right: -9px; width: 18px; height: 18px; transform: scale(0.707) rotate(45deg); border-radius: 0 5px 0 18px; background: #002633; color: black; z-index: 1;}
+.x-direction .init .direction .direc a:before {border-radius: 100%; width: 18px; height: 18px; line-height: 18px; margin: 8px 0; position: absolute; top: 0; left: 30px; font-weight: bold; background: #002633; z-index: 1;}
+.x-direction .init .direction .direc a:hover, .x-direction .init .direction .direc a.active, 
+.x-direction .init .direction .direc a:hover:after, .x-direction .init .direction .direc a.active:after{ background: #ccf2ff; color: #002633;}
+.x-direction .init .wlc{margin: 0; padding: 0; display: inline-block;}
+.x-direction .init .wlc p{color: white; display: inline-block; font-size: 1.2em; margin: 0; padding: 0; line-height: 2.2em; font-weight: bold;}
+.x-direction .init .somethings{margin: 0; padding: 0; display: inline-block; float: right;}
+.x-direction .init .somethings a{color: white; display: inline-block; font-size: 1.1em; margin: 0; padding: 0; line-height: 2.2em; margin-left: 15px; text-decoration: none; font-weight: bold;}
+.x-direction .init .somethings a:hover{color: #ccffff;}
+
+.x-header{background: #00394d;}
+.x-header .init{width: 98%; max-width: 1200px;}
+.x-header .init .logo{display: block; margin: 0; padding: 0;}
+.x-header .init .logo a{display: block; margin: 0; padding: 0; line-height: 5em;}
+.x-header .init .logo a img{height: 5em; display: inline-block; margin: 0; padding: 0; float: left;}
+.x-header .init .logo a span{display: inline-block; margin: 0; padding: 0; color: white; font-size: 1.8em; font-weight: bold;}
+.x-header .init .logo a:hover span{color: #308CD0;}
+.x-header .init .search-title{float: left; display: block; margin: 3px; padding: 0; line-height: 1.5em; font-size: 1.4em; color: white; text-align: left; font-weight: bold;}
+.x-header .init .search-filter{float: right; display: block; margin: 3px 0px; padding: 0; line-height: 1.5em; font-size: 1em; color: black; text-align: left; font-weight: normal;}
+.x-header .init .search-filter select{display: block; float: left; height: 20px; margin: 0; padding: 0; border: none; outline: none; background: white; margin: 0 3px;}
+.x-header .init .search-input{display: block; clear: both; margin: 3px; position: relative; line-height: 1.5em; font-size: 1em; background: none; margin-bottom: 6px;}
+.x-header .init .search-input .sinput{display: block; width: 100%; border: none; outline: none; box-shadow: none; line-height: 1.5em; font-size: 1.1em; color: navy; padding: 3px 5px; margin: 0; box-shadow: inset 0px 0px 5px #00394d; -webkit-box-shadow: inset 0px 0px 5px #00394d; -moz-box-shadow: inset 0px 0px 5px #00394d; -o-box-shadow: inset 0px 0px 5px #00394d;}
+.x-header .init .search-input .search-icon{position: absolute; top: 0; right: 0; z-index: 1;}
+.x-header .init .search-input .search-icon .fa{display: block;font-size: 1.2em;line-height: 1.5em;margin: 1px; padding: 0 5px; cursor: pointer;}
+.x-header .init .search-input .search-icon .fa:hover{color:#00ffff;}
+.x-header .init .mainmenu{display: block; margin: 0; padding: 0; line-height: 4.8em;}
+.x-header .init .mainmenu .item{display: inline-block; margin: 3px; padding: 0 15px; color: white; font-size: 1.5em; font-weight: bold; text-decoration: none;}
+.x-header .init .mainmenu .item .icon{margin-right: 5px;}
+.x-header .init .mainmenu .item:hover{color: #308CD0; background: white;}
+.x-header .init .userarea{display: block; margin: 0; padding: 0; line-height: 4.8em; position: relative; width: 100%;}
+.x-header .init .userarea .avatar,
+.x-header .init .userarea .username,
+.x-header .init .userarea .xcaret{display: block;}
+.x-header .init .userarea .avatar{position: absolute; top: 0; left: 0;}
+.x-header .init .userarea .xcaret{position: absolute; top: 0; right: 0;}
+.x-header .init .userarea a{display: block; margin: 2px; padding: 0 5px; color: white; font-size: 1.3em; font-weight: bold; text-decoration: none; text-align: center;}
+.x-header .init .userarea:hover a{color: #308CD0;}
+
+.x-copyright{background: #002633;}
+.x-copyright .init{width: 98%; max-width: 1200px;}
+.x-copyright .init .copyright{color: white; display: block; font-size: 1.3em; font-weight: bold; margin: 0; padding: 0; line-height: 2.2em; text-align: center;}
+.x-copyright .init .social-channel{display: flex;
+  justify-content: center;
+  align-items: center;}
+.x-copyright .init .social-channel a{display: inline-block; margin: 0 5px; padding: 0; line-height: 2.2em; font-size: 1.1em; font-weight: bold; color: white; text-decoration: none;}
+.x-copyright .init .social-channel a:hover{color: #00ffff;}
+
+.x-footer{background: #00394d;}
+.x-footer .init{width: 98%; max-width: 1200px;}
+.x-footer .init .footer-block{display: block; margin: 0; padding: 0;}
+.x-footer .init .footer-block .foot-title{display: block; margin: 0; padding: 0; color: white; font-size: 2em; font-weight: bold; line-height: 2.1em;}
+.x-footer .init .footer-block .facebook{display: block; margin: 3px 0; padding: 0;}
+.x-footer .init .footer-block .facebook img{width: 100%; margin: 0; padding: 0;}
+.x-footer .init .footer-block .footabout{display: block; margin: 3px 0; padding: 0;}
+.x-footer .init .footer-block .footabout p{display: block; margin: 2px 0; padding: 0; color: white; font-size: 1.3em; font-weight: normal; line-height: 1.5em;}
+.x-footer .init .footer-block .footpolicy{display: block; margin: 3px 0; padding: 0;}
+.x-footer .init .footer-block .footpolicy .link{display: block; margin: 0; padding: 0; line-height: 1.6em; font-size: 1.3em; font-weight: bold; color: white; text-decoration: none;}
+.x-footer .init .footer-block .footpolicy .link:hover{color: #00ffff;}
+.x-footer .init .footer-block .footmenu{display: block; margin: 3px 0; padding: 0;}
+.x-footer .init .footer-block .footmenu .menuitem{display: inline-block; margin: 0; padding: 0; line-height: 1.7em; height: 1.7em; font-size: 1.2em; font-weight: bold; color: white; text-decoration: none; width: 49%; overflow: hidden;}
+.x-footer .init .footer-block .footmenu .menuitem:hover{color: #00ffff;}
+.x-footer .init .footer-block .foottags{display: block; margin: 3px 0; padding: 0;}
+.x-footer .init .footer-block .foottags .menuitem{display: inline-block; margin: 3px; padding: 0 10px; line-height: 1.7em; font-size: 1.2em; font-weight: bold; color: #555; background: white; text-decoration: none;}
+.x-footer .init .footer-block .foottags .menuitem:hover{background: #00ffff;}
+
+.x-subscrible{background: #004d4d;}
+.x-subscrible .init{width: 98%; max-width: 1200px; padding: 15px 0;}
+.x-subscrible .init .title{display: block; margin: 0; padding: 0; color: white; font-size: 1.6em; font-weight: bold; line-height: 3em; text-align: center;}
+.x-subscrible .init .form-subscrible{display: block; margin: 0; padding: 0; position: relative;}
+.x-subscrible .init .form-subscrible .wrapinput{display: block; margin-right: 100px; border: 2px solid white; background: white;}
+.x-subscrible .init .form-subscrible .wrapinput select{display: block; width: 100%; margin: 0; padding: 0; border: none; outline: none; background: white; margin-top: 3px; line-height: 1.5em; font-size: 1.1em; padding: 3px 5px;}
+.x-subscrible .init .form-subscrible .wrapinput .emailinput{display: block; width: 100%; border: none; outline: none; box-shadow: none; line-height: 1.5em; font-size: 1.1em; color: navy; padding: 3px 5px; margin: 0; box-shadow: inset 0px 0px 5px #00394d; -webkit-box-shadow: inset 0px 0px 5px #00394d; -moz-box-shadow: inset 0px 0px 5px #00394d; -o-box-shadow: inset 0px 0px 5px #00394d;}
+.x-subscrible .init .form-subscrible .send-subscrible{position: absolute; top: 0; right: 0; bottom: 0; z-index: 1; width: 96px; margin: 0; padding: 0; line-height: 3em; text-align: center; color: #004d4d; font-size: 1.6em; font-weight: bold; text-decoration: none; background: white;}
+
+
